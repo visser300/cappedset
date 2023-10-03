@@ -1,0 +1,8 @@
+## run test cases
+npx hardhat test
+
+## run deploy script to mumbai with max 100 items
+npx hardhat run ./scripts/deploy.script.ts --network mumbai
+
+Deployed test contract:
+0xc75827fc76A597084B0A9ED5285bCB371C7e0326
